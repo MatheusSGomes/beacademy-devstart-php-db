@@ -61,8 +61,7 @@ class ProductController extends AbstractController
     $result = $con->prepare($query);
     $result->execute();
 
-    $message = "Produto Excluido";
-    include dirname(__DIR__)."/View/_partials/message.php";
+    parent::renderMessage("Produto Excluido");
   }
 
   public function editAction(): void

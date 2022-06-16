@@ -1,13 +1,5 @@
-<?php
-  include dirname(__DIR__)."/_partials/head.php";
+<div class='alert alert-success'>
+  <?php echo $message ?>
+</div>
 
-  echo "
-    <div class='alert alert-success'>
-      {$message}
-    </div>
-
-    <a href='/' class='btn btn-outline-primary'>Ok</a>
-  ";
-
-  include dirname(__DIR__)."/_partials/footer.php";
-?>
+<a href='/' class='btn btn-outline-primary'>Ok</a>
