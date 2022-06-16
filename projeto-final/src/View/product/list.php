@@ -34,7 +34,7 @@
             <td>{$quantity}</td>
             <td>{$created_at}</td>
             <td>
-              <a href='' class='btn btn-primary btn-sm'>Editar</a>
+              <a href='/produtos/editar?id={$id}' class='btn btn-primary btn-sm'>Editar</a>
               <a href='/produtos/excluir?id={$id}' class='btn btn-danger btn-sm'>Excluir</a>
             </td>
           </tr>
