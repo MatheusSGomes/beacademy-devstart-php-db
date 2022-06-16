@@ -1,4 +1,10 @@
-<h1>Listar Categorias</h1>
+<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4">
+  <nav class="d-inline-flex mt-md-0 ms-md-auto">
+    <a href="/categorias/nova" class="btn btn-outline-dark btn-sm me-3">Adicionar Categoria</a>
+  </nav>
+</div>
+
+<h1 class="display-4 fw-normal">Listar Categorias</h1>
 
 <table class="table table-hover table-striped">
   <thead class="table-dark">

@@ -1,1 +1,1 @@
-<h1>Página Inicial</h1>
+<h1 class="display-4 fw-normal">Página Inicial</h1>

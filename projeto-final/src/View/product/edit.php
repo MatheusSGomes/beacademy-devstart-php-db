@@ -1,1 +1,1 @@
-<h1>Editar produto</h1>
+<h1 class="display-4 fw-normal">Editar produto</h1>

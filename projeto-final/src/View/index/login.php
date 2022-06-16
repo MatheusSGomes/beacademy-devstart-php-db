@@ -1,1 +1,1 @@
-<h1>Página de login</h1>
+<h1 class="display-4 fw-normal">Página de login</h1>

@@ -1,1 +1,1 @@
-<h1>Página não encontrada</h1>
+<h1 class="display-4 fw-normal">Página não encontrada</h1>
