@@ -1,6 +1,7 @@
 <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4">
   <nav class="d-inline-flex mt-md-0 ms-md-auto">
     <a href="/produtos/novo" class="btn btn-outline-dark btn-sm me-3">Adicionar Produto</a>
+    <a href="/produtos/relatorio" class="btn btn-dark btn-sm me-3">Gerar PDF</a>
   </nav>
 </div>
 
