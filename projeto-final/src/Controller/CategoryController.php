@@ -46,7 +46,8 @@ class CategoryController extends AbstractController
     $result = $con->prepare($query);
     $result->execute();
 
-    echo '<div class="alert alert-success">Categoria excluída</div>';
+    $message = "Categoria excluída";
+    include dirname(__DIR__)."/View/_partials/message.php";
   }
 
   public function updateAction(): void
